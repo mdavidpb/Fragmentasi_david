@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:text="Membuat Kotak Dialog" />
+
+    <Button
+        android:id="@+id/toastBtn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="73dp"
+        android:background="#02fafe"
+        android:text="@string/toastTextBtn" />
+
+    <Button
+        android:id="@+id/listDialogBtn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="137dp"
+        android:background="#0f03fe"
+        android:text="@string/listDialogTextBtn" />
+
+    <Button
+        android:id="@+id/exitBtn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/toastBtn"
+        android:layout_marginBottom="268dp"
+        android:layout_marginStart="2dp"
+        android:background="#fe0101"
+        android:text="@string/exitTextBtn" />
+</RelativeLayout>
